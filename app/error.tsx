@@ -10,7 +10,7 @@ const ErrorPage = ({ error, reset }: Props) => {
   return (
     <div>
       ErrorPagen
-      <button className="btn" onClick={() => rest()}>
+      <button className="btn" onClick={() => reset()}>
         retry
       </button>
     </div>
